@@ -1,0 +1,53 @@
+{
+  "name": "csvalidate",
+  "description": "test",
+  "version": "0.0.1",
+  "author": "@vitormalencar",
+  "bin": {
+    "csvalidate": "./bin/run"
+  },
+  "bugs": "https://github.com/vitormalencar/csvalidate/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1.14.0",
+    "@oclif/plugin-help": "^2",
+    "ajv": "^6.11.0",
+    "cosmiconfig": "^6.0.0",
+    "enquirer": "^2.3.4",
+    "neat-csv": "^5.1.0",
+    "tslib": "^1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "@types/node": "^13.7.0",
+    "eslint": "^6.8.0",
+    "eslint-config-oclif": "^3.1",
+    "eslint-config-oclif-typescript": "^0.1",
+    "ts-node": "^8",
+    "typescript": "^3.7.5"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/vitormalencar/csvalidate",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "csvalidate"
+  },
+  "repository": "vitormalencar/csvalidate",
+  "scripts": {
+    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "types": "lib/index.d.ts"
+}
