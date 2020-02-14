@@ -21,7 +21,7 @@ Comming soon
 **Install globally with npm**
 
 ```sh
-npm i csvalidate
+npm i -g csvalidate
 ```
 
 **Install with npm**
