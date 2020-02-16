@@ -6,9 +6,11 @@
 [![Version](https://img.shields.io/npm/v/csvalidate.svg)](https://npmjs.org/package/csvalidate)
 [![Downloads/week](https://img.shields.io/npm/dw/csvalidate.svg)](https://www.npmjs.com/package/csvalidate)
 [![License](https://img.shields.io/npm/l/csvalidate.svg)](https://github.com/vitormalencar/csvalidate/blob/master/package.json)
+# warning
+at this point this lib is still an working in progress, the main idea here is to create something that can be useful, but at this point is not ready yet
 
 ## Why it's awesome
-Comming soon
+Comming soon,
 
 <!-- toc -->
 
